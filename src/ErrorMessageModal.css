@@ -1,0 +1,39 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Exemple de dimensionnement */
+    max-width: 80%; /* S'assure que le modal ne dépasse pas les limites de l'écran */
+}
+
+.modal-content p {
+    margin: 0 0 20px 0;
+}
+
+.modal-content button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #9b0c29;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}

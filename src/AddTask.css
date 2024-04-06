@@ -1,0 +1,37 @@
+
+
+input[type="text"], button[type="submit"] {
+    height: 40px; /* Assure une hauteur uniforme pour l'input et le bouton */
+    font-size: 16px; /* Taille de police appropriée pour la visibilité */
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc inset;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+    padding: 14px 20px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 0 5px #007BFF inset;
+}
+button[type="submit"] {
+    padding: 14px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #7b16ef;
+}
+

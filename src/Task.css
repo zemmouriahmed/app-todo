@@ -1,0 +1,50 @@
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Assure que le conteneur s'étend sur toute la largeur */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.task-description {
+    margin: 0; /* Enlève toute marge par défaut */
+    flex-grow: 1; /* Permet au texte de prendre l'espace disponible, poussant ainsi les boutons à droite */
+    padding-right: 20px; /* Ajoute un peu d'espace entre le texte et les boutons */
+    font-size: 24px; /* Augmente la taille du texte */
+
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 5px; /* Espacement entre les boutons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Styles supplémentaires pour .toggle-button et .delete-button si nécessaire */
+
+
+.toggle-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.25);
+}
+
+button:active {
+    transform: scale(0.95);
+}
